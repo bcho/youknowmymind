@@ -1,0 +1,18 @@
+markdown:         redcarpet
+pygments:         true
+
+permalink:        pretty
+
+title:            Working Bastard
+tagline:
+description:
+url:              http://blog.youknowmymind.com
+
+author:
+  name:           hbc
+  url:            https://twitter.com/artofhuh
+
+paginate:         1
+
+github:           bcho
+twitter:          "@artofhuh"
