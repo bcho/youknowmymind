@@ -2,7 +2,7 @@
 title: "DevOps 101: 一个简单的部署模型"
 date: 2014-06-08 23:00:00
 layout: post
-categories: devops, note
+categories: devops
 ---
 
 DevOps is [hard](http://jeffknupp.com/blog/2014/04/15/how-devops-is-killing-the-developer/)! 但在全<del>站</del>栈式大行其道的今天，不一个人揽起所有的工作的话就拿不到工资啦！
