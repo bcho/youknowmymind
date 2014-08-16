@@ -1,5 +1,5 @@
 ---
-title: "Coffeescript 中简单的显式 variable shadowing"
+title: "CoffeeScript 中简单的显式 Variable Shadowing"
 data: 2014-06-29 12:00:00
 layout: post
 categories: javascript programming
@@ -7,7 +7,7 @@ categories: javascript programming
 
 Coffeescript 里面一个比较特别的地方就是没有显式的 variable shadowing：
 
-[E.g. 1](http://dou.bz/3ROhYm):
+[e.g. 1](http://dou.bz/3ROhYm):
 
 ```coffeescript
 outer = 1
@@ -25,7 +25,7 @@ alert "#{inner} #{innerGlobal}"
 
 这个做法最大的问题就是开发者很容易会在某一个层级的作用域把高层级作用域中的同名变量（name conflict）给覆盖掉，从而污染了上级作用域：
 
-[E.g. 2](http://dou.bz/3kjeWs):
+[e.g. 2](http://dou.bz/3kjeWs):
 
 ```coffeescript
 {sin, cos, PI} = math
@@ -56,12 +56,14 @@ alert cos  # cos is 0 now!
 在 [#712](https://github.com/jashkenas/coffeescript/issues/712) 这个 issue 中，也有人提出了一个看起来还不错的[解决方法](https://github.com/jashkenas/coffeescript/issues/712#issuecomment-8595484)。
 
 
-具体原理就是利用 JavaScript 的[函数参数优先级比外层作用域高](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope?redirectlocale=en-US&redirectslug=JavaScript%2FReference%2FFunctions_and_function_scope#Name_conflicts)的特点，明确限定我们的局部变量的作用域（当然用 literal 的 ``var`` 也行，哪个好看就见仁见智了。）
+具体原理就是利用 JavaScript 的[函数参数优先级比外层作用域高](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope?redirectlocale=en-US&redirectslug=JavaScript%2FReference%2FFunctions_and_function_scope#Name_conflicts)的特点，明确限定我们的局部变量的作用域。
+
+（当然用 literal 的 ``var`` 也行，哪个好看就见仁见智了。）
 
 
-于是 E.g. 2 可以改成如下：
+于是 e.g. 2 可以改成如下：
 
-[E.g. 3](http://dou.bz/0gUswl):
+[e.g. 3](http://dou.bz/0gUswl):
 
 ```coffeescript
 outer = 1

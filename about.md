@@ -1,5 +1,6 @@
 ---
 layout: page
-title: About
+title: About Working Bastard
 ---
 
+It works!

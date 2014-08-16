@@ -1,18 +1,18 @@
-markdown:         redcarpet
-pygments:         true
+markdown : redcarpet
+pygments : true
 
-permalink:        /:year/:month/:title/
+permalink : /:year/:month/:title/
 
-title:            Working Bastard
-tagline:
-description:
-url:              http://blog.youknowmymind.com
+title       : Working Bastard
+tagline     :
+description :
+url         : http://blog.youknowmymind.com
 
-author:
-  name:           hbc
-  url:            https://twitter.com/artofhuh
+author :
+  name : hbc
+  url  : https://twitter.com/artofhuh
 
-paginate:         1
+paginate : 1000000000
 
-github:           bcho
-twitter:          "@artofhuh"
+github  : bcho
+twitter : "@artofhuh"

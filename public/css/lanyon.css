@@ -22,6 +22,7 @@
  * Sidebar Navigation
  * Slide effect
  * Posts and pages
+ * Block
  * Pagination
  * Reverse layout
  * Themes
@@ -180,12 +181,15 @@ h1, h2, h3, h4, h5, h6 {
 .page-title,
 .post-title {
   margin-top: 0;
+
+  font-size: 1.5rem;
 }
 
 .post-title a:hover,
 .post-title a:focus {
   text-decoration: none;
 }
+
 
 /* Meta data line below post title */
 .post-date {
@@ -218,6 +222,38 @@ h1, h2, h3, h4, h5, h6 {
 }
 .related-posts li a:hover small {
   color: inherit;
+}
+
+
+/*
+ * Block
+ */
+.block {
+  margin-bottom: 2.5rem;
+}
+
+.block-title {
+  margin-top: .5rem;
+  font-size: 1.5rem;
+}
+
+.block-list {
+  list-style: none;
+  padding: 0;
+}
+
+.block-list li {
+  text-overflow: ellipsis;
+  line-height: 2.3em;
+}
+
+.block-link:hover {
+  text-decoration: underline;
+}
+
+.block-meta {
+  font-size: .9em;
+  float: right;
 }
 
 
