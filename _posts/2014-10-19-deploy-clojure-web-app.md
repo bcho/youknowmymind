@@ -9,8 +9,8 @@ Clojure is cool, with the help of [JVM][jvm_hosted] and [lein][lein],
 we can easily build and compile a web app [from scratch][compojure_usage].
 
 
-And one of favourite feature of clojure is compiling the source code
-into [jar][clojure_compile] (or [war][jar_vs_war]). Unlike Ruby/Python/PHP,
+And one of my favourite feature in clojure is compiling the source code
+into a single [jar][clojure_compile] (or [war][jar_vs_war]). Unlike Ruby/Python/PHP,
 all we have to do is:
 
 1. upload the compiled (standalone) jar to server,
@@ -45,7 +45,7 @@ build server and make it compile the latest codebase automatically.
 
 
 
-I will continually update this post when hanging out with clojure. :D 
+I will continually update this post when hanging out with clojure. :D
 
 
 [jvm_hosted]: http://clojure.org/jvm_hosted
