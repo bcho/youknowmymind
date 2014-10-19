@@ -20,6 +20,7 @@
  * Global resets
  * Masthead
  * Sidebar Navigation
+ * Navigation Bar
  * Slide effect
  * Posts and pages
  * Block
@@ -153,6 +154,31 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+/*
+ * Sidebar navigation.
+ */
+
+.nav {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: block;
+  font-size: .85rem;
+  line-height: 1.65rem;
+}
+
+.nav a,
+.nav .sep {
+  display: inline-block;
+}
+
+.nav .sep {
+  font-size: .65rem;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+  color: #999;
 }
 
 /*
@@ -345,8 +371,14 @@ a.pagination-item:hover {
 .theme-base-08 .sidebar {
   background-color: #cb3f20;
 }
+
 .theme-base-08 .container a,
+.theme-base-08 .nav a:hover,
 .theme-base-08 .sidebar-nav,
 .theme-base-08 .sidebar-toggle {
   color: #cb3f20;
+}
+
+.theme-base-08 .nav a {
+  color: #666;
 }
