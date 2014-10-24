@@ -26,7 +26,7 @@ After a few investigations, I developed this approach to deploy [my app][gists-a
 3. push to the upstream,
 4. use [fabric][sample_fabfile] to deploy the latest code (of course auto pull in server side is much better),
 5. pull out the latest code in the target server,
-6. compile the code into standalone jar,
+6. compile the code into standalone jar (if necessary),
 7. rebuild the docker image (if necessary),
 8. restart the docker container service.
 
