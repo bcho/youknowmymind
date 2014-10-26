@@ -56,8 +56,8 @@ categories: thoughts
 
 按照上述的个人标准，书单里能挑出手的有：
 
-- [编码][3]
-- [Programming Pearls][4]
+- [《编码》][3]
+- [《Programming Pearls》][4]
 
 
 
