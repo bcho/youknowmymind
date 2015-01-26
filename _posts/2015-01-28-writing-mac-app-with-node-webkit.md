@@ -87,7 +87,7 @@ But we don't need to re-compile our project every time,
 $ ./node_modules/node-webkit-builder/bin/nwbuild -o build .
 ```
 
-Don't forget to check out the official guide on [packagment and distribution][nw-package]
+Don't forget to check out the official guide on [packagment and distribution][nw-package].
 
 
 ### 9. Install your app.
