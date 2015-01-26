@@ -1,5 +1,5 @@
 markdown : redcarpet
-pygments : true
+highligher : true
 
 permalink : /:year/:month/:title/
 
