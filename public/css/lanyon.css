@@ -130,16 +130,22 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .sidebar-nav {
-  position: fixed;
-  top:  1rem;
-  left: 1rem;
-  display: block;
-  width: 2.2rem;
-  padding: .5rem .65rem;
-  color: #505050;
-  background-color: #fff;
-  border-radius: 4px;
-  cursor: pointer;
+  display: none;
+}
+@media (min-width: 56rem) {
+  .sidebar-nav {
+    display: block;
+    position: fixed;
+    top:  1rem;
+    left: 1rem;
+    display: block;
+    width: 2.2rem;
+    padding: .5rem .65rem;
+    color: #505050;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
 }
 
 .sidebar-nav:before {
@@ -161,12 +167,19 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .nav {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  display: block;
-  font-size: .85rem;
-  line-height: 1.65rem;
+  display: none;
+}
+
+@media (min-width: 56rem) {
+  .nav {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: block;
+    font-size: .85rem;
+    line-height: 1.65rem;
+  }
 }
 
 .nav a,
