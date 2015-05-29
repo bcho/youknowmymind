@@ -2,7 +2,7 @@
 title: "Notes for myself: 性欲"
 date: 2015-05-24 21:00:00
 layout: post
-categories: notes-for-myself
+categories: notes
 ---
 
 ## 什么是性欲？
