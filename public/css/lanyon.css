@@ -24,6 +24,7 @@
  * Slide effect
  * Posts and pages
  * Block
+ * Checklist
  * Pagination
  * Reverse layout
  * Themes
@@ -229,6 +230,13 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
+.post-group {
+  margin-bottom: 1.2rem;
+}
+.post-group p {
+  margin-bottom: .5rem;
+}
+
 
 /* Meta data line below post title */
 .post-date {
@@ -292,6 +300,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .block-meta {
   font-size: .9em;
+  float: right;
+}
+
+/*
+ * Checklist
+ */
+.checklist-box:checked + .checklist-desc {
+  text-decoration: line-through;
+}
+
+.checklist-meta {
+  font-size: .7em;
   float: right;
 }
 
