@@ -1,4 +1,4 @@
-markdown : redcarpet
+markdown : kramdown
 highligher : true
 
 permalink : /:year/:month/:title/
