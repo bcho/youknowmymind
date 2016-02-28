@@ -2,7 +2,7 @@
 title: "Review: Kindle 4"
 date: 2016-02-21 17:00:00
 layout: post
-categories: review gadget
+categories: review, gadget
 ---
 
 My Kindle 4 has been used for almost 4 years, I read about 200+ books and 500+ articles
