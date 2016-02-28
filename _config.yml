@@ -1,5 +1,6 @@
 markdown : kramdown
 highligher : true
+future: true
 
 permalink : /:year/:month/:title/
 
@@ -11,8 +12,6 @@ url         : http://blog.youknowmymind.com
 author :
   name : hbc
   url  : https://twitter.com/artofhuh
-
-paginate : 1000000000
 
 github  : bcho
 twitter : "@artofhuh"
